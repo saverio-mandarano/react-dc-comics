@@ -33,7 +33,7 @@ ul li {
 }
 
 ul li a:hover {
-  color: rgb(0, 153, 255);
+  color: rgb(12, 124, 236);
 }
 
 /* Header */
@@ -45,13 +45,13 @@ header .flex {
 }
 
 header ul li a:hover {
-  border-bottom: 3px solid rgb(0, 153, 255);
+  border-bottom: 3px solid rgb(12, 124, 236);
   padding-bottom: 50px;
 }
 
 .active {
   color: rgb(0, 153, 255);
-  border-bottom: 3px solid rgb(0, 153, 255);
+  border-bottom: 3px solid rgb(12, 124, 236);
   padding-bottom: 50px;
 }
 
@@ -63,6 +63,14 @@ figure img {
 /* ContentSection */
 .content {
   background-color: black;
+  color: white;
+  min-height: 100px;
+  padding-top: 20px;
+}
+
+/* ServiceSection */
+.service {
+  background-color: rgb(12, 124, 236);
   color: white;
   min-height: 100px;
 }

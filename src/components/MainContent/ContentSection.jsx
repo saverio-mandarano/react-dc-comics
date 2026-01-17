@@ -3,7 +3,7 @@ export default function ContentSection() {
   return (
     <section className='content'>
       <div className='container'>
-        <p>&rarr; Content goes here &larr;</p>
+        <h2>&rarr; Content goes here &larr;</h2>
       </div>
     </section>
   )
