@@ -1,7 +1,14 @@
+//const subtitle = `Sottotitolo dell'Header`
+
 function MainHeader() {
 
   return (
-      <h2>Header</h2>
+//      <h2>{subtitle}</h2>
+    <header>
+        <figure>
+            <img src="/dc-logo.png" alt="Logo DC"></img> {/* con / entro in public */}
+        </figure>
+    </header>
   )
 }
 
