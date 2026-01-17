@@ -37,7 +37,7 @@ ul li a:hover {
 }
 
 /* Header */
-header .flex {
+.flex {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -73,4 +73,8 @@ figure img {
   background-color: rgb(12, 124, 236);
   color: white;
   min-height: 100px;
+}
+
+figure a img {
+  width: 50%;
 }
