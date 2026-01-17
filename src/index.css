@@ -20,6 +20,12 @@ ul li {
   list-style: none;
 }
 
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 ul li a:hover {
   color: rgb(0, 153, 255);
 }
@@ -51,4 +57,11 @@ header ul li a:hover {
 figure img {
   max-width: 100%;
   height: auto;
+}
+
+/* ContentSection */
+.content {
+  background-color: black;
+  color: white;
+  min-height: 100px;
 }

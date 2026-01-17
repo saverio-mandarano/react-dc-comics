@@ -4,8 +4,20 @@ import ServiceSection from './ServiceSection.jsx';
 export default function MainContent() {
   return (
     <main>
-      <ContentSection />
-      <ServiceSection />
+      <section className='content'>
+        <div className='container'>
+          <ContentSection />
+        </div>
+      </section>
+      
+      <section className='service'>
+        <div className='container'>
+          <ServiceSection />
+        </div>
+      </section>
+
     </main>
   );
 }
+
+
