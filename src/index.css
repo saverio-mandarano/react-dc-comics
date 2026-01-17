@@ -4,3 +4,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Generals */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Header */
+.active {
+  color: rgb(0, 153, 255);
+}

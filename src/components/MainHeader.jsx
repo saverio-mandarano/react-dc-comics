@@ -6,12 +6,12 @@ function MainHeader() {
 //      <h2>{subtitle}</h2>
     <header>
         <figure>
-            <img src="/dc-logo.png" alt="Logo DC"></img> {/* con / entro in public */}
+            <img src="/dc-logo.png" alt="Logo DC"/> {/* con / entro in public - sempre slash di chiusura tag */}
         </figure>
         <nav>
             <ul>
                 <li><a href="#">CHARACTERS</a></li>
-                <li><a href="#">COMICS</a></li>
+                <li><a href="#" className="active">COMICS</a></li>
                 <li><a href="#">MOVIES</a></li>
                 <li><a href="#">TV</a></li>
                 <li><a href="#">GAMES</a></li>
