@@ -114,5 +114,24 @@ ul li a span:hover {
 /* Utilities Links */
 .utilities-links {
   background-image: url("./assets/img/footer-bg.jpg");
-  min-height: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.utilities-links .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dc-img img {
+  width: 67%;
+}
+
+.utilities-links ul {
+  color: grey;
+}
+
+.utilities-links ul li:first-child {
+  color: white;
 }
