@@ -114,18 +114,19 @@ ul li a span:hover {
 /* Utilities Links */
 .utilities-links {
   background-image: url("./assets/img/footer-bg.jpg");
-  height: 300px;
+  min-height: 300px;
   overflow: hidden;
 }
 
 .utilities-links .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-center;
   align-items: center;
+  gap: 15rem;
 }
 
 .dc-img img {
-  width: 67%;
+  width: 80%;
 }
 
 .utilities-links ul {
@@ -134,4 +135,10 @@ ul li a span:hover {
 
 .utilities-links ul li:first-child {
   color: white;
+}
+
+/* ContactUs Links */
+.contactus-links {
+  background-color: rgb(48, 48, 48);
+  min-height: 80px;
 }
