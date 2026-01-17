@@ -1,6 +1,6 @@
-import MainHeader from "./components/MainHeader"
-import MainContent from "./components/MainContent/MainContent"
-import MainFooter from 
+import MainHeader from "./components/MainHeader";
+import MainContent from "./components/MainContent/MainContent";
+import MainFooter from "./components/MainFooter/MainFooter";
 
 function App() {
 
