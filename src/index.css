@@ -110,3 +110,9 @@ figure img {
 ul li a span:hover {
   color: black;
 }
+
+/* Utilities Links */
+.utilities-links {
+  background-image: url("./assets/img/footer-bg.jpg");
+  min-height: 300px;
+}
