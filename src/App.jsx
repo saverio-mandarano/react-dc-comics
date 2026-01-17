@@ -1,3 +1,6 @@
+import MainHeader from "./components/MainHeader"
+
+
 function App() {
 
   return (

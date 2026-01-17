@@ -8,7 +8,7 @@ function MainHeader() {
 export default MainHeader
 
 //oppure
-// export default MainHeader() {
+// export default function MainHeader() {
 //   return (
 //       <h1>Hello world</h1>
 //   )
