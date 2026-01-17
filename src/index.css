@@ -11,13 +11,17 @@ body {
   font-weight: 500;
 }
 
-a {
+ul li a {
   text-decoration: none;
   color: black;
 }
 
 ul li {
   list-style: none;
+}
+
+ul li a:hover {
+  color: rgb(0, 153, 255);
 }
 
 /* Header */
@@ -28,14 +32,18 @@ header {
   padding: 10px;
 }
 
-figure {
-}
-
 .active {
   color: rgb(0, 153, 255);
+  border-bottom: 3px solid rgb(0, 153, 255);
+  padding-bottom: 20px;
 }
 
 ul {
   display: flex;
   gap: 20px;
+}
+
+header ul li a:hover {
+  border-bottom: 3px solid rgb(0, 153, 255);
+  padding-bottom: 20px;
 }
