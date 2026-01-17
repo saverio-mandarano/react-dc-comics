@@ -1,8 +1,10 @@
 export default function ServiceSection() {
 
   return (
-    <section>
-        <p>&rarr; ServiceSection goes here &larr;</p>
+    <section className='service'>
+      <div className='container'>
+        <p>&rarr; Serivces goes here &larr;</p>
+      </div>
     </section>
   )
 }
