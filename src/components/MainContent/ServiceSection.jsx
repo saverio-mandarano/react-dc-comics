@@ -1,4 +1,9 @@
-import buycomicsdigitalcomics from '../../assets/img/buy-comics-digital-comics.png';
+import DigitalComics from '../../assets/img/buy-comics-digital-comics.png';
+import ComicsMerchandise from '../../assets/img/buy-comics-merchandise.png';
+import Subscriptions from '../../assets/img/buy-comics-subscriptions.png';
+import ShopLocator from '../../assets/img/buy-comics-shop-locator.png';
+import PowerVisa from '../../assets/img/buy-dc-power-visa.png';
+
 
 export default function ServiceSection() {
   return (
@@ -7,49 +12,47 @@ export default function ServiceSection() {
         <ul>
           
           <li>
-            <figure className="flex">
-              <a href="#">
-                <img src={buycomicsdigitalcomics} alt="" />
+              <a href="#" className='flex'>
+                <div className='img-wrapper'>
+                  <img src={DigitalComics} alt="" />
+                </div>
+                <span>DIGITAL COMICS</span>
               </a>
-              <figcaption>DIGITAL COMICS</figcaption>
-            </figure>
+          </li>
+          <li>
+              <a href="#" className='flex'>
+                <div className='img-wrapper'>
+                  <img src={ComicsMerchandise} alt="" />
+                </div>
+                <span>DC MERCHANDISE</span>
+              </a>
+          </li>
+          <li>
+              <a href="#" className='flex'>
+                <div className='img-wrapper'>
+                  <img src={Subscriptions} alt="" />
+                </div>
+                <span>SUBSCRIPTION</span>
+              </a>
+          </li>
+          <li>
+              <a href="#" className='flex'>
+                <div className='img-wrapper'>
+                  <img src={ShopLocator} alt="" />
+                </div>
+                <span>COMIC SHOP LOCATOR</span>
+              </a>
+          </li>
+          <li>
+              <a href="#" className='flex'>
+                <div className='img-wrapper'>
+                  <img src={PowerVisa} alt="" className='big'  />
+                </div>
+                <span>DC POWER VISA</span>
+              </a>
           </li>
 
-          <li>
-            <figure>
-              <a href="#">
-                <img src="" alt="" />
-              </a>
-              <figcaption>DC MERCHANDISE</figcaption>
-            </figure>
-          </li>
-
-          <li>
-            <figure>
-              <a href="#">
-                <img src="" alt="" />
-              </a>
-              <figcaption>SUBSCRIPTION</figcaption>
-            </figure>
-          </li>
-
-          <li>
-            <figure>
-              <a href="#">
-                <img src="" alt="" />
-              </a>
-              <figcaption>COMICS SHOP LOCATOR</figcaption>
-            </figure>
-          </li>
-
-          <li>
-            <figure>
-              <a href="#">
-                <img src="" alt="" />
-              </a>
-              <figcaption>DC POWER VISA</figcaption>
-            </figure>
-          </li>
+          
 
         </ul>
       </div>

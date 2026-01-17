@@ -25,7 +25,7 @@ a {
 
 ul {
   display: flex;
-  gap: 25px;
+  align-items: center;
 }
 
 ul li {
@@ -37,7 +37,12 @@ ul li a:hover {
 }
 
 /* Header */
-.flex {
+header ul {
+  gap: 25px;
+  justify-content: space-between;
+}
+
+header .flex {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -71,10 +76,37 @@ figure img {
 /* ServiceSection */
 .service {
   background-color: rgb(12, 124, 236);
-  color: white;
   min-height: 100px;
+  padding-top: 20px;
 }
 
-figure a img {
+.service ul {
+  justify-content: center;
+}
+
+.img-wrapper img {
+  width: 40%;
+}
+
+.img-wrapper img.big {
+  width: 80%;
+}
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
   width: 50%;
+}
+
+.service .flex {
+  display: flex;
+  align-items: center;
+}
+
+.service span {
+  color: white;
+}
+
+ul li a span:hover {
+  color: black;
 }
