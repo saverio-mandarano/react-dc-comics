@@ -56,6 +56,13 @@ figure img {
   height: auto;
 }
 
+/* Jumbotron */
+.jumbotron {
+  background-image: url("/public/jumbotron.jpg");
+  height: 310px; /* altezza fissa */
+  background-size: cover;
+}
+
 /* ContentSection */
 .content {
   background-color: black;
