@@ -107,18 +107,13 @@ figure img {
 
 /* Utilities Links */
 .utilities-links {
-  background-image: url("./assets/img/footer-bg.jpg");
-}
-
-.utilities-links .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 20rem;
-}
-
-.dc-img img {
-  width: 100%;
+  background-image:
+    url("./assets/img/dc-logo-bg.png"), url("./assets/img/footer-bg.jpg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto, cover;
+  background-position:
+    90% 50%,
+    center;
 }
 
 /* Utilities-links ***links-list*** */

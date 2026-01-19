@@ -50,9 +50,6 @@ export default function UtilitiesLinks () {
             </ul>       
             </div>
           </div>
-        <div className="dc-img">
-            <img src={DcLogo} alt="" />
-        </div>
       </div>
     </section>
   )

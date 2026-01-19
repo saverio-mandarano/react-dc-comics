@@ -15,7 +15,7 @@ export default function ContactUsLinks () {
         <div className="follow-us-icons">
           <ul>
               <li><a href="">FOLLOW US</a></li>
-              <li><img src={Pinterest} alt="facebook icon" /></li>
+              <li><img src={Facebook} alt="facebook icon" /></li>
               <li><img src={Twitter} alt="" /></li>
               <li><img src={Youtube} alt="" /></li>
               <li><img src={Pinterest} alt="" /></li>
