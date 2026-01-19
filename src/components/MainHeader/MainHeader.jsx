@@ -1,5 +1,6 @@
 import MainLogo from "./MainLogo"
 import NavBar from "./NavBar"
+
 const MainHeader = () => {
 
   return (
