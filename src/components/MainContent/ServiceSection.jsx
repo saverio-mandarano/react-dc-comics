@@ -38,9 +38,9 @@ export default function ServiceSection() {
           <li>
               <a href="#" className='flex'>
                 <div className='img-wrapper'>
-                  <img src={ShopLocator} alt="" />
+                  <img src={ShopLocator} className='maps' alt="" />
                 </div>
-                <span>COMIC SHOP LOCATOR</span>
+                <span className='maps'>COMIC SHOP LOCATOR</span>
               </a>
           </li>
           <li>

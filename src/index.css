@@ -67,19 +67,20 @@ figure img {
 /* ServiceSection */
 .service {
   background-color: rgb(12, 124, 236);
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .service .flex {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-  gap: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  gap: 5px;
 }
 
 .img-wrapper img {
-  width: 40%;
+  width: 90%;
 }
 
 .img-wrapper img.big {
@@ -89,16 +90,20 @@ figure img {
 .img-wrapper {
   display: flex;
   justify-content: center;
-  width: 50%;
-}
-
-.service .flex {
-  display: flex;
-  align-items: center;
+  flex: 3;
 }
 
 .service span {
   color: white;
+  flex: 9;
+}
+
+.img-wrapper .maps {
+  width: 55%;
+}
+
+span.maps {
+  margin-right: 1.5rem;
 }
 
 .service ul li a span:hover {
