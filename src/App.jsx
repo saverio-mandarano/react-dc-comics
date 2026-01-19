@@ -1,13 +1,12 @@
-import MainHeader from "./components/MainHeader";
+import MainHeader from "./components/MainHeader/MainHeader";
 import MainContent from "./components/MainContent/MainContent";
 import MainFooter from "./components/MainFooter/MainFooter";
 
 function App() {
 
   return (
-    <> {/*  sintassi alternativa e più utilizzata del React Fragment: `<> </>` */}
-      {/*<h1>Hello world</h1>*/}
-      <MainHeader /> {/*Quando utilizziamo i componenti self-closing in JSX, obbligatoriamente inserire lo slash di chiusura all'interno del tag " />" */}
+    <>
+      <MainHeader />
       <MainContent />
       <MainFooter />
     </>
