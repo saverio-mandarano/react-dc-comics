@@ -114,19 +114,17 @@ figure img {
 /* Utilities Links */
 .utilities-links {
   background-image: url("./assets/img/footer-bg.jpg");
-  min-height: 300px;
-  overflow: hidden;
 }
 
 .utilities-links .container {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 1rem;
+  gap: 20rem;
 }
 
 .dc-img img {
-  width: 80%;
+  width: 100%;
 }
 
 /* Utilities-links ***links-list*** */
