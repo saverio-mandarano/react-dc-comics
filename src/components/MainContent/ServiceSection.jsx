@@ -9,7 +9,7 @@ export default function ServiceSection() {
   return (
     <section className="service">
       <div className="container">
-        <ul>
+        <ul className='flex'>
           
           <li>
               <a href="#" className='flex'>

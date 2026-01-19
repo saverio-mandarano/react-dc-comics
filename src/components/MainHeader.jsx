@@ -10,7 +10,7 @@ function MainHeader() {
                 <img src="/dc-logo.png" alt="Logo DC"/> {/* con / entro in public - sempre slash di chiusura tag */}
             </figure>
             <nav>
-                <ul>
+                <ul className="flex">
                     <li><a href="#">CHARACTERS</a></li>
                     <li><a href="#" className="active">COMICS</a></li>
                     <li><a href="#">MOVIES</a></li>
