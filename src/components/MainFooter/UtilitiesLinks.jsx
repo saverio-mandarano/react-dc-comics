@@ -7,7 +7,7 @@ export default function UtilitiesLinks () {
       <div className='container'>
         <div className="links-list">
           <div className="links-column">
-            <ul className="ul-footer-main-top">
+            <ul>
               <li><h3>DC COMICS</h3></li>
               <li><a href="">Characters</a></li>
               <li><a href="">Comics</a></li>
@@ -17,14 +17,14 @@ export default function UtilitiesLinks () {
               <li><a href="">Videos</a></li>
               <li><a href="">News</a></li>
             </ul>
-            <ul className="ul-footer-main-top">
+            <ul>
               <li><h3>SHOP</h3></li>
               <li><a href="">Shop DC</a></li>
               <li><a href="">Shop DC Collectibles</a></li>
             </ul>
           </div>
           <div className="links-column">
-            <ul className="ul-footer-main-top">
+            <ul>
               <li><h3>DC</h3></li>
               <li><a href="">Terms of use</a></li>
               <li><a href="">{`Privacy policy (New)`}</a></li>
@@ -40,7 +40,7 @@ export default function UtilitiesLinks () {
             </ul>
           </div>
           <div className="links-column">
-            <ul className="ul-footer-main-top">
+            <ul>
               <li><h3>SITES</h3></li>
               <li><a href="">DC</a></li>
               <li><a href="">MAD Magazine</a></li>
