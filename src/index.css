@@ -105,12 +105,6 @@ figure img {
   color: black;
 }
 
-/* ContactUs Links */
-.contactus-links {
-  background-color: rgb(48, 48, 48);
-  min-height: 80px;
-}
-
 /* Utilities Links */
 .utilities-links {
   background-image: url("./assets/img/footer-bg.jpg");
@@ -147,4 +141,29 @@ figure img {
 
 .utilities-links ul {
   margin: 2rem;
+}
+
+/* ContactUs Links */
+.contactus-links {
+  background-color: rgb(48, 48, 48);
+  min-height: 80px;
+}
+
+.contactus-links .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  color: white;
+  background-color: transparent;
+  margin: 2rem;
+  border: 0.2rem solid rgb(12, 124, 236);
+  padding: 1rem 2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-sign-up:hover {
 }
