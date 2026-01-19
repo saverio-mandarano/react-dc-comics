@@ -153,17 +153,38 @@ figure img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 1.5rem;
 }
 
 button {
   color: white;
   background-color: transparent;
-  margin: 2rem;
   border: 0.2rem solid rgb(12, 124, 236);
   padding: 1rem 2rem;
   font-weight: bold;
   cursor: pointer;
 }
 
-.btn-sign-up:hover {
+button:hover {
+  background-color: rgb(12, 124, 236);
+}
+
+.follow-us-icons ul li a {
+  color: rgb(12, 124, 236);
+  font-size: 1.5rem;
+}
+
+.follow-us-icons ul li a:hover {
+  color: black;
+}
+
+.follow-us-icons li img {
+  cursor: pointer;
+}
+
+.follow-us-icons ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.3rem;
 }
