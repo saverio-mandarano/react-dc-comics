@@ -17,9 +17,9 @@ const NavBar = () => {
 
 
 
+    // rendering array ritornato dal map
     const navItemsRender = navItems.map((navItem) => {
         return (
-        // rendering array ritornato dal map
             <li key={navItem.id}>
                 <a href={navItem.url}
                     className={navItem.current ? 'active' : ''}>
