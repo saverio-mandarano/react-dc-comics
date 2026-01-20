@@ -14,6 +14,7 @@ export default function ContentSection() {
   return (
     <section className='content'>
       <div className='container'>
+        <div className="top-left">CURRENT SERIES</div>
         <section id="products">
           <div className="card-container">
             {renderProdottiCard()}

@@ -69,6 +69,19 @@ figure img {
   color: white;
   min-height: 100px;
   padding-top: 20px;
+  position: relative;
+}
+
+.top-left {
+  position: absolute;
+  top: -30px;
+  left: 120px;
+
+  color: white;
+  background-color: rgb(12, 124, 236);
+  border: 0.2rem solid rgb(12, 124, 236);
+  padding: 0.7rem 3rem;
+  font-weight: bold;
 }
 
 .card-container {
