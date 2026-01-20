@@ -71,6 +71,29 @@ figure img {
   padding-top: 20px;
 }
 
+.card-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  gap: 20px;
+}
+
+.card {
+  width: calc(100% / 6 - 20px);
+  margin-top: 1rem;
+}
+
+.card img {
+  max-width: 100%;
+}
+
+.card h5 {
+  margin-top: 10px;
+}
+
 /* ServiceSection */
 .service {
   background-color: rgb(12, 124, 236);
