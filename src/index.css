@@ -98,6 +98,21 @@ figure img {
   margin-top: 10px;
 }
 
+.content button {
+  background-color: rgb(12, 124, 236);
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content button:hover {
+  background-color: black;
+}
+
 /* ServiceSection */
 .service {
   background-color: rgb(12, 124, 236);

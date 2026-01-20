@@ -19,6 +19,9 @@ export default function ContentSection() {
             {renderProdottiCard()}
           </div>
         </section>
+        <div className="btn">
+          <button>LOAD MORE</button>
+        </div>
       </div>
     </section>
   )
