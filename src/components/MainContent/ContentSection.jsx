@@ -1,5 +1,5 @@
-import comics from './comics'
-import Card from '../../Card'
+import comics from '../Data/comics.js'
+import Card from '../Card'
 
 export default function ContentSection() {
   // funzione di rendering prodotti
