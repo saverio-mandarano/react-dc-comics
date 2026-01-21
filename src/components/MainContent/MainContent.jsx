@@ -1,4 +1,4 @@
-import ContentSection from './ContentSection.jsx';
+import ContentSection from './ContentSection/ContentSection.jsx';
 import ServiceSection from './ServiceSection.jsx';
 import Jumbotron from './Jumbotron.jsx';
 
