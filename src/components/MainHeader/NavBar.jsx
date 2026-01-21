@@ -2,7 +2,7 @@ const NavBar = () => {
 
     // dati per i link di navigazione
     const navItems = [
-        { id: 1, text: 'CHARACTERS', url: '#', current: true },
+        { id: 1, text: 'CHARACTERS', url: '#', current: false },
         { id: 2, text: 'COMICS', url: '#', current: true },
         { id: 3, text: 'MOVIES', url: '#', current: false },
         { id: 4, text: 'TV', url: '#', current: false },
