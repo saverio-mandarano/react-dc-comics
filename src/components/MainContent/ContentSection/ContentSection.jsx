@@ -5,19 +5,9 @@ export default function ContentSection() {
   // funzione di rendering prodotti
   const renderProdottiCard = () => {
     return comics.map((comic) => (
-
       <Card 
         key={comic.id}
-        id={comic.id}
-        title={comic.title}
-        description={comic.description}
-        thumb={comic.thumb}
-        price={comic.price}
-        series={comic.series}
-        sale_date={comic.sale_date}
-        type={comic.type}
-        artists={comic.artists}
-        writers={comic.writers}
+        comic={comic}
       />
     ))
   } 
